@@ -1,0 +1,167 @@
+/*a, a:visited{
+	color:#93ad7e;
+}*/
+input, textarea{
+	border:1px solid #CCC;
+}
+
+select{
+	border:1px solid #CCC;
+}
+.content{
+	background:#FFF;
+}
+/*table{
+	background:none;
+}
+td, th{
+	border:1px solid #e7eedf;
+}
+thead{
+	background:#f0f7e8;
+}*/
+.box h3{
+	background:#f0f7e8;
+	border-bottom:1px solid #e7eedf;
+	color:#93ad7e;
+}
+/***************
+	  Forms
+***************/
+form#form{
+	width:700px;
+}
+
+form#form fieldset {
+	border:1px solid #CCC;
+}
+form#form legend {
+	border:1px solid #CCC;
+	background:#B5D864;
+	color:#000;
+}
+form#form input {
+	border:1px solid #CCC;
+}
+form#form textarea {
+	border:1px solid #CCC;
+}
+form#form option {
+	background:#FFF;
+}
+form#form optgroup {
+	background:#e7eedf;
+}
+form#form optgroup option {
+
+}
+form#form #button1, form#form #button2 {
+	color:#000;
+}
+form#form #button1:hover, form#form #button2:hover {
+	color:#000;
+}
+/***************
+	Home
+***************/
+#infobox{
+	border:1px solid #e7eedf;
+}
+#infobox h3{
+	background:#f0f7e8;
+	border-bottom:1px solid #e7eedf;
+	color:#93ad7e;
+}
+#rightnow {
+	border:1px solid #e7eedf;
+}
+#rightnow .reallynow {
+	background:#f0f7e8;
+	color:#93ad7e;
+}
+#rightnow h3{
+	background:#f0f7e8;
+	border-bottom:1px solid #e7eedf;
+}
+.msg {
+text-align:left;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+.msg .message_box {
+background-color:#FF8080;
+border:1px solid #FF0000;
+color:#000000;
+display:inline;
+font-size:10px;
+font-weight:bold;
+padding:3px 15px 3px 10px;
+}
+
+/*******JQUERY VALIDATE*******/
+
+.message_error{
+border:1px solid #FF0000;
+padding:3px 15px 3px 10px;
+background-color:#FF8080;
+margin-top:20px;
+display:none;
+text-align:left;
+}
+
+.message_error h4{
+	font-size:16px;
+}
+
+
+.message_error ol{
+	list-style:none;
+	font-weight:bold;
+	margin-left:20px;
+}
+
+/*******JQUERY WIZARD*******/
+div.row{
+	background:#FFFFFF;
+	width:690px;
+}
+
+.wizard-nav
+{
+padding: 10px;
+margin: 10px 0 0;
+margin-bottom:0px;
+background:#FFFFFF;
+width:670px;
+}
+.wizard-nav a
+{
+background: #eee;
+border: 1px solid #ddd;
+text-decoration: none;
+padding: 5px;
+display: inline;
+margin: 0;
+font-size:11px;
+}
+.wizard-nav a.active { 
+	background:#B5D864 none repeat scroll 0 0;
+	border-color:black;
+	color:black;
+}
+.wizardcontrols .wizardnext { margin-left: 74%; width: 12%;}
+.wizardcontrols .wizardprev { width: 12%; margin-left:1%; }
+#proyecto .wizardcontrols .wizardnext { margin-left: 87%; }
+#marco .wizardcontrols .wizarfinished {margin-left: 74%; width: 12%;}
+
+.content_form{
+	padding:10px;
+	width:670px;
+}
+
+.fullspan {margin-left:auto;margin-right:auto;width:986px;}
+.NFText{
+	width:300px;
+
+}

@@ -1,0 +1,73 @@
+/* CSS Document */
+.InfoBar, .InfoBarHeader {
+margin-bottom:16px;
+margin-top:16px;
+}
+.InfoBar {
+background:transparent none repeat scroll 0 0;
+margin:1px;
+margin-bottom:20px;
+}
+
+.xcap {
+background:transparent none repeat scroll 0 0;
+display:block;
+font-size:1px;
+}
+
+.p3_B1, .p3_B2, .p3_B3 {/*SurveyMo...keyV3.css (línea 192)*/
+display:block;
+font-size:1px;
+height:1px;
+overflow:hidden;
+}
+
+.p3_B2, .p3_B3 {/*SurveyMo...keyV3.css (línea 193)*/
+border-width:0 1px;
+}
+
+.p3_B1 {/*SurveyMo...keyV3.css (línea 194)*/
+margin:0 3px;
+}
+
+.p3_B2 {/*SurveyMo...keyV3.css (línea 195)*/
+margin:0 2px;
+}
+
+.p3_B3 {/*SurveyMo...keyV3.css (línea 196)*/
+margin:0 1px;
+}
+
+.InfoBarTitle {/*SurveyMo...keyV3.css (línea 272)*/
+border-bottom:1px solid #AAAAAA;
+color:#000000;
+font-size:14px;
+font-weight:bold;
+margin-bottom:4px;
+padding-bottom:1px;
+}
+
+.InfoBar .p3_B1, .InfoBar .p3_B2, .InfoBar .p3_B3, .InfoBar .p4_B1, .InfoBar .p4_B2, .InfoBar .p4_B3, .InfoBar .p4_B4 {/*SurveyMo...keyV3.css (línea 274)*/
+/*background-color:#eaf1d2;*/
+background-color:#E5E5E5;
+
+}
+
+.InfoBar .p3_B1, .InfoBar .p3_B2, .InfoBar .p4_B1, .InfoBar .p4_B2, .InfoBar .p4_B3 {/*SurveyMo...keyV3.css (línea 275)*/
+height:1px;
+}
+
+.InfoBarContent, .InfoBar .p3_B2, .InfoBar .p3_B3, .InfoBar .p4_B2, .InfoBar .p4_B3, .InfoBar .p4_B4 {/*SurveyMo...keyV3.css (línea 277)*/
+border-left:1px solid #D3D3D3;
+border-right:1px solid #D3D3D3;
+}
+
+.InfoBar .p3_B1, .InfoBar .p4_B1 {/*SurveyMo...keyV3.css (línea 278)*/
+background:#D3D3D3 none repeat scroll 0 0;
+}
+
+.InfoBarContent {/*SurveyMo...keyV3.css (línea 279)*/
+/*background-color:#eaf1d2;*/
+background-color:#E5E5E5;
+padding:5px 10px;
+}

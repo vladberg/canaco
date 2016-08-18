@@ -1,0 +1,34 @@
+/* CSS Document */
+body {font:12px/17px Arial, Helvetica, sans-serif; color:#333; background:#ccc; /*padding:40px 20px 20px 20px;*/}
+fieldset {background:#F5F5F5; padding:10px; border:1px solid #fff; border-color:#fff #666661 #666661 #fff; margin-bottom:5px; width:565px;}
+input, textarea, select {font:12px/12px Arial, Helvetica, sans-serif; padding:0;}
+fieldset.action {background:#9da2a6; border-color:#e5e5e5 #797c80 #797c80 #e5e5e5; margin-top:-20px; text-align:center}
+legend {background:#bfbf30; color:#fff; font:17px/21px Calibri, Arial, Helvetica, sans-serif; padding:0 10px; margin:-26px 0 0 -11px; font-weight:bold; border:1px solid #fff; border-color:#e5e5c3 #505014 #505014 #e5e5c3;}
+label {font-size:11px; font-weight:bold; color:#666;}
+label.opt {font-weight:normal;}
+dl {clear:both; margin:0;}
+dt {float:left; text-align:right; width:90px; margin:0 5px 5px 0;}
+dd {float:left; width:435px; margin:0 0 5px 0;}
+#footer {font-size:11px;}
+form#form input {
+	padding:3px;
+	border:1px solid #CCCCCC;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+form#form select {
+	padding:3px;
+	border:1px solid #CCCCCC;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+form#form textarea {
+	padding:3px;
+	overflow:auto;
+	border:1px solid #CCCCCC;
+	font-size:12px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+#msgContainer{
+	margin-bottom:8px;
+}

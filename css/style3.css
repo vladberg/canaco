@@ -1,0 +1,352 @@
+@charset "utf-8";
+<style>
+
+#msgContainer{
+
+	padding-top:10px;
+
+	padding-bottom:10px;
+
+	text-align:center;
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	width:100%;
+	
+
+}
+
+
+
+#msgContainer a{
+
+	text-decoration:none;
+
+	color:#0066FF;
+
+}
+
+
+
+div.saved{
+
+	background:#99FF99;
+
+	border-top:1px solid #339900;
+
+	border-bottom:1px solid #339900;
+	
+
+}
+
+div.error{
+
+	background:#FFCCCC;
+
+	border-top:1px solid #FF3366;
+
+	border-bottom:1px solid #FF3366;
+	
+
+}
+b{
+	border-top:1px solid ;
+	text-align:center;
+
+	border-bottom:1px solid;
+	
+}
+table{
+	width:150%;
+	border:0;
+	cellpadding:2;
+	cellspacing:2; 
+	
+}
+td{
+	width:160px;
+}
+h1{
+	text-align:center;
+	
+}
+disabled{
+	background-color:#666;
+	border-top:1px solid #666;
+
+	border-bottom:1px solid #666;
+} 
+
+.fila_par{
+
+	background-color:#FFFFFF;
+
+}
+
+.fila_impar{
+
+	background-color:#E5E5E5;
+
+}
+
+.new_row{
+
+	background:#FFFFCC;
+
+}
+
+#print{
+	display:none !important;
+}
+
+.print{
+cellspacing:1; 
+cellpadding:1 ;
+border:1px solid #CCCCCC; 
+border-collapse:separate;
+background:#FFFFFF;
+aling:center;
+
+}
+
+#div_print{
+	padding:100px;
+	text-align: center;
+	align:center;
+}
+
+.tabla_encabezado {
+
+	background-color:#D1D1D1;
+
+	color:#000000;
+
+	font-family:'Arial';
+
+	font-size:11px;
+
+	font-weight:bold;
+
+}
+
+
+
+
+
+
+#modTitle{
+
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+
+	font-weight:bold;
+
+}
+
+
+
+#GB_frame {
+
+vertical-align:middle;
+
+
+}
+
+#msgContainer{
+
+	padding-top:10px;
+
+	padding-bottom:10px;
+
+	text-align:center;
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	width:100%;
+
+}
+
+
+
+#msgContainer a{
+
+	text-decoration:none;
+
+	color:#0066FF;
+
+}
+
+
+
+div.saved{
+
+	background:#99FF99;
+
+	border-top:1px solid #339900;
+
+	border-bottom:1px solid #339900;
+
+}
+
+div.error{
+
+	background:#FFCCCC;
+
+	border-top:1px solid #FF3366;
+
+	border-bottom:1px solid #FF3366;
+
+}
+
+
+
+
+
+
+
+div.menu_izquierdo{
+		background:#FFFFFF;
+		border:1px solid #666666; 
+		margin-top:5px;
+		margin-bottom:20px;
+		font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+		display:none !important;
+		
+	}
+	
+	div.menu_izquierdo h4{
+		background:#B5D864;
+		border:1px solid #8DA25D;
+		margin:3px;
+		margin-left:5px;
+		margin-right:5px;
+		font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+		display:none !important;
+		
+	}
+	
+	div.menu_izquierdo ol{
+		list-style-type:none;
+		margin:3px;
+		margin-left:5px;
+		margin-right:5px;
+		font-family:Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;
+		font-size:12px;
+		text-align:left;
+		padding:0;
+		display:none !important;
+		
+	}
+
+	div.menu_izquierdo ol li{
+		padding-top:5px;
+		border-bottom:1px dashed #B5D864;
+		display:none !important;
+		
+	}
+
+	div.menu_izquierdo ol li a{
+		text-decoration:none;
+		color:#000000;
+		padding-left:8px;
+		display:none !important;
+		
+	}
+	
+	div.menu_izquierdo ol li a:hover{
+		font-weight:bold;
+		display:none !important;
+		
+	}
+	
+	#page_content {
+		background-color:#FFF;
+		border: 0px solid #FFFFFF;
+		
+		
+	}
+
+
+/*tr{
+	
+    background-color:#D1D1D1;
+
+	color:#000000;
+
+	font-family:'Arial';
+
+	font-size:11px;
+
+	font-weight:bold;
+	border-width:1px;
+	
+}
+
+
+td{
+    background-color:#D1D1D1;
+
+	color:#000000;
+
+	font-family:'Arial';
+
+	font-size:11px;
+
+	font-weight:bold;
+	border-width:1px;
+	
+}*/
+
+
+	body {
+           background: #FFFFFF;
+		   
+}
+
+	#page_content .sb-inner { background:#FFFFFF; }
+	#page_content .sb-shadow { background:#FFFFFF; }
+	#page_content .sb-border { background:#FFFFFF; }
+	
+	
+	.InfoBarContent, .InfoBar .p3_B2, .InfoBar .p3_B3, .InfoBar .p4_B2, .InfoBar .p4_B3, .InfoBar .p4_B4 {/*SurveyMo...keyV3.css (línea 277)*/
+border-left:1px solid #FFF;
+border-right:1px solid #FFF;
+}
+
+.InfoBar .p3_B1, .InfoBar .p4_B1 {/*SurveyMo...keyV3.css (línea 278)*/
+background:#FFF none repeat scroll 0 0;
+}
+
+.InfoBarContent {/*SurveyMo...keyV3.css (línea 279)*/
+/*background-color:#eaf1d2;*/
+background-color:#FFF;
+padding:5px 10px;
+}
+	
+.GB_Gallery {
+    margin: 0 22px 0 22px;
+	display:none !important;
+}
+
+.GB_Gallery .content {
+    background-color: #fff;
+    border: 3px solid #ddd;
+	display:none !important;
+}
+
+#GB_overlay {
+    background-color: #000;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    z-index: 100;
+	display:none !important;
+}
+
+
+</style>/* CSS Document */
+

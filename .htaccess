@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+# Fix Rewrite
+Options -Multiviews
+
+# Mod Rewrite
+#Options +FollowSymLinks
+#RewriteEngine On
+#RewriteBase / 
+#RewriteCond %{REQUEST_FILENAME} !-d 
+#RewriteCond %{REQUEST_FILENAME}\.php -f 
+#RewriteRule ^(.*)$ $1.php 

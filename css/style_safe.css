@@ -1,0 +1,79 @@
+@charset "utf-8";
+<style>
+
+#msgContainer{
+
+	padding-top:10px;
+
+	padding-bottom:10px;
+
+	text-align:center;
+
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	width:100%;
+
+}
+
+
+
+#msgContainer a{
+
+	text-decoration:none;
+
+	color:#0066FF;
+
+}
+
+
+
+div.saved{
+
+	background:#99FF99;
+
+	border-top:1px solid #339900;
+
+	border-bottom:1px solid #339900;
+
+}
+
+div.error{
+
+	background:#FFCCCC;
+
+	border-top:1px solid #FF3366;
+
+	border-bottom:1px solid #FF3366;
+
+}
+b{
+	border-top:1px solid ;
+	text-align:center;
+
+	border-bottom:1px solid;
+}
+table{
+	width:450;
+	border:0;
+	cellpadding:2;
+	cellspacing:2; 
+}
+td{
+	width:180px;
+}
+h1{
+	text-align:center;
+	
+}
+disabled{
+	background-color:#666;
+	border-top:1px solid #666;
+
+	border-bottom:1px solid #666;
+} 
+
+
+</style>/* CSS Document */
+

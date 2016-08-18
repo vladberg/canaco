@@ -1,0 +1,39 @@
+/* CSS Document */
+
+table#tblImagenes{
+	border:none;
+	width:98%;
+}
+
+.photo_layout{
+	margin:4px;
+	padding:4px;
+	border:1px solid #CCCCCC;
+	background:#FFFFFF;
+	text-align:center;
+}
+
+.photo_layout img{
+	width:140px;
+	height:90px;
+}
+
+.aciones{
+	margin-left:4px;
+	margin-right:4px;
+}
+
+div#postit {
+	background-color:#FFFF99;
+	padding:10px;
+	margin-right:30px;
+	margin-top:10px;
+	position:absolute;
+	right:0;
+	text-align:justify;
+	width:174px;
+	font-size:14px;
+	font-weight:bold;
+	font-style:italic;
+	border:1px solid #FFCC33;
+}
